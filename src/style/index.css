@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    padding: 5%;
+}
+
+.formControl {
+    width: 50;
+}
+
+.form-group {
+    margin-top:2rem
+}
+
+.button {
+    margin-top:2rem
+}
+
+.meal-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.ingredient {
+    display: flex;
+    padding-right: 10px;
+    width: 400px;
+}
+
+
+
+.meal-img {
+    display: inline-block;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.star {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.meal-header {
+   display: flex;
+}
+
+.link {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
